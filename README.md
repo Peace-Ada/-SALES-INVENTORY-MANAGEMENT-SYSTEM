@@ -104,21 +104,19 @@ fixes that.
 ---
 
 ## Skills Demonstrated
----
-- Relational Database Design from Scratch
-- Primary Key and Foreign Key Implementation
-- Referential Integrity Constraints
-- Data Insertion and Validation
-- Multi-table JOIN Queries (up to 5 tables)
-- Window Functions — RANK() OVER
-- Aggregation — SUM, COUNT, AVG, GROUP BY
-- Filtering — WHERE, HAVING, IS NULL
+
+- Relational Database Design
+- Data Modeling and Table Creation
+- Data Validation and Integrity Checks
+- Multi-table JOIN Queries
+- Window Functions (`RANK() OVER`)
+- Aggregate Functions (`SUM`, `COUNT`, `AVG`, `GROUP BY`)
+- Data Filtering (`WHERE`, `HAVING`, `IS NULL`)
 - Subqueries and Correlated Subqueries
-- Date Functions — DATE_FORMAT, DAYNAME
+- Date and Time Functions
 - Business Intelligence Query Writing
 - Power BI Dashboard Development
-- Data Storytelling for Non-Technical Audiences
-
+- Data Storytelling and Business Communication
 ---
 
 ## Business Insights
