@@ -49,7 +49,7 @@ every week.
 ---
 
 ## Business Problem
----
+
 Global Traders had no centralised system to answer
 basic but critical business questions:
 
@@ -67,7 +67,7 @@ fixes that.
 ---
 
 ## Objectives
----
+
 - Design a normalised relational database that
   accurately models the business
 - Populate the database with realistic retail data
@@ -79,39 +79,8 @@ fixes that.
 
 ---
 
-## Database Design
----
-The database consists of 6 linked tables — each
-one representing a real part of the business.
-Every table connects to others through foreign
-keys to ensure data consistency and accuracy.
-
-![Database schema diagram — attach your image here](images/sql_schema.png)
-
-**Table Structure:**
-
-| Table | Purpose | Key Fields |
-|-------|---------|------------|
-| customers | Stores all customer records | customer_id, first_name, last_name, email, phone, city |
-| suppliers | Stores supplier information | supplier_id, supplier_name, contact_email |
-| products | Product catalogue with pricing | product_id, product_name, category, price, supplier_id |
-| orders | Records every customer order | order_id, customer_id, order_date |
-| order_details | Line items within each order | order_detail_id, order_id, product_id, quantity |
-| payments | Payment records per order | payment_id, order_id, payment_date, amount, payment_method |
-
-**Foreign Key Relationships:**
-- `orders` → `customers` (customer_id)
-- `order_details` → `orders` (order_id)
-- `order_details` → `products` (product_id)
-- `products` → `suppliers` (supplier_id)
-- `payments` → `orders` (order_id)
-
-![Foreign key relationships — attach your image here](images/sql_relationships.png)
-
----
-
 ## Tools Used
----
+
 - **MySQL:** Used to write all SQL queries,
   database creation, table design, data insertion
   and business intelligence queries
@@ -121,45 +90,16 @@ keys to ensure data consistency and accuracy.
   supplier contribution
 - **Power Query (in Power BI):** Used for data
   transformation before visualisation
-
+  
 ---
-
-## Database Creation & Data Insertion
-
-**Step 1 — Created the database**
-
-Created the sales_inventory_system database and
-all 6 tables with correct data types, primary
-keys, foreign keys and NOT NULL constraints.
-
-![Database and tables created — attach your image here](images/sql_create_tables.png)
-
-**Step 2 — Inserted realistic data**
-
-Populated all 6 tables with realistic Nigerian
-retail data — 20 customers, 10 suppliers, 30
-products across 5 categories, 40 orders and
-40 payments.
-
-![Data inserted across all 6 tables — attach your image here](images/sql_data_inserted.png)
-
-**Step 3 — Verified all data with SELECT queries**
-
-Ran SELECT * queries on all 6 tables to verify
-data was inserted correctly before writing
-business queries.
-
-![SELECT verification across all tables — attach your image here](images/sql_verification.png)
-
-
 ## Database Development
 
-- Created a normalized relational database with six linked tables.
-- Implemented primary and foreign key constraints.
-- Populated the database with realistic retail data.
-- Validated data integrity before analysis.
+- Designed and developed a relational database to support sales and inventory operations.
+- Created six business tables representing customers, suppliers, products, orders, order details, and payments.
+- Populated the database with realistic retail data to simulate day-to-day business transactions.
+- Validated the dataset to ensure consistency and reliability before performing SQL analysis.
 
-(image)
+![Database Tables](images/database_tables.png)
 
 ---
 
