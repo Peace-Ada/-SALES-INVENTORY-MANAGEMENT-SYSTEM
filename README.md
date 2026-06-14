@@ -117,155 +117,80 @@ fixes that.
 - Business Intelligence Query Writing
 - Power BI Dashboard Development
 - Data Storytelling and Business Communication
+  
 ---
 
-## Business Insights
+## Key Business Insights
 
-### Insight 1 — Revenue & Sales Performance
+### 1. How much revenue is the business generating?
 
-The business generated ₦15.6M in total revenue
-across 40 orders from 20 customers — an average
-order value of ₦390,000 per transaction. This
-is a strong baseline that shows healthy per-order
-spending.
+![Revenue Analysis](images/sql_revenue_kpi.png)
 
-![Revenue and sales KPI results — attach your image here](images/sql_revenue_kpi.png)
-
-**Key Takeaway:**
-At ₦390K average order value, each customer
-relationship is worth protecting. Losing even
-one high-value customer has a significant impact
-on total revenue.
+The business generated **₦15.6M** in total revenue across **40 orders** from **20 customers**, resulting in an average order value of **₦390,000**. The high average transaction value demonstrates strong customer spending and highlights the importance of maintaining customer retention and consistent sales performance.
 
 ---
 
-### Insight 2 — Product Performance
+### 2. Which products are selling the most?
 
-Speaker is the best-selling product with 28 units
-sold followed by Mouse at 25 units. Electronics
-as a category generates ₦6.6M — more than any
-other category combined. Rice is the top Food
-item showing strong cross-category demand.
+![Top-selling Products](images/sql_top_products.png)
 
-**Top 5 Best-Selling Products:**
-
-![Top 5 best-selling products query result — attach your image here](images/sql_top_products.png)
-
-**Key Takeaway:**
-Speaker, Mouse and Rice must be restocked
-immediately — they are selling fastest and
-any stockout directly costs the business revenue.
+Speaker is the best-selling product with **28 units sold**, followed by Mouse with **25 units**. Electronics is the highest-performing category overall, while Rice leads within the Food category. These products are the primary drivers of sales and should remain a key focus for inventory planning.
 
 ---
 
-### Insight 3 — Customer Intelligence
+### 3. Who are our most valuable customers?
 
-The top 3 customers — Ava Scott, Lucas Carter
-and Mason Green — account for a disproportionate
-share of total revenue. Ava Scott alone spent
-₦2,774,000. These are not just customers —
-they are the business's most critical
-relationships.
+![Top Customers](images/sql_customer_ranking.png)
 
-![Customer ranking query result — attach your image here](images/sql_customer_ranking.png)
-
-**Key Takeaway:**
-The top 3 customers represent a concentration
-risk. If any one of them stops buying, revenue
-drops significantly. A loyalty programme would
-protect this revenue.
+The top three customers contribute a significant share of total revenue, with **Ava Scott** spending **₦2,774,000**. Retaining these high-value customers is essential for sustaining revenue growth and strengthening long-term business performance.
 
 ---
 
-### Insight 4 — Supplier Performance
+### 4. Which products need restocking urgently?
 
-Global Traders leads all suppliers with 55 units
-sold — followed closely by Mega Distributors and
-Food World. The business is currently dependent
-on a small number of top suppliers which creates
-supply chain risk if any one underperforms.
+![Inventory Analysis](images/sql_restocking.png)
 
-![Supplier performance query result — attach your image here](images/sql_supplier_performance.png)
-
-**Key Takeaway:**
-Negotiate volume discounts with the top 3
-suppliers. Reduce dependency on any single
-supplier to protect supply chain continuity.
+Speaker, Mouse, and Rice recorded the highest sales volumes, reflecting strong and consistent customer demand. Prioritising inventory replenishment for these products will help minimise stockouts and reduce the risk of lost sales.
 
 ---
 
-### Insight 5 — Sales Peak Mid-Week and Drop Toward the Weekend
+### 5. Which suppliers are performing best?
 
-Daily sales analysis shows that transactions
-peak mid-week and decline toward the weekend.
-This pattern has direct implications for staffing,
-inventory replenishment scheduling and promotional
-timing.
+![Supplier Performance](images/sql_supplier_performance.png)
 
-![Sales by day of week query result — attach your image here](images/sql_daily_sales.png)
-
-**Key Takeaway:**
-Schedule stock replenishments and maximum staff
-coverage at the start of the week to capitalise
-on mid-week peak demand.
+Global Traders supplied the highest sales volume, followed by Mega Distributors and Food World. While these suppliers play an important role in supporting business operations, monitoring supplier dependency can help improve supply chain resilience and reduce operational risk.
 
 ---
-
 ## Recommendations
 
-**Restock Immediately**
-Speaker, Mouse and Rice are the fastest-selling
-products. A stockout of any of these directly
-costs the business sales — restock before levels
-hit zero.
+- **Prioritise Inventory Management:** Maintain adequate stock of Speaker, Mouse, and Rice to reduce stockouts and lost sales.
 
-**Reward Loyal Customers**
-Ava Scott, Lucas Carter and Mason Green are the
-top 3 spenders. Offer them loyalty discounts or
-early access to new products to retain their
-business and grow their spend further.
+- **Strengthen Customer Retention:** Introduce loyalty initiatives for high-value customers to encourage repeat purchases.
 
-**Invest in Electronics**
-Electronics generates ₦6.6M — more than any
-other category. Expanding the Electronics product
-range and keeping stock levels high is the single
-highest-return investment the business can make.
+- **Expand the Electronics Category:** Increase product variety and inventory to maximise revenue opportunities.
 
-**Negotiate with Top Suppliers**
-Global Traders leads in sales volume. Use this
-leverage to negotiate bulk pricing and reduce
-cost per unit — improving profit margins without
-needing to increase prices.
+- **Optimise Supplier Partnerships:** Negotiate better pricing with top suppliers to improve profit margins.
 
-**Reduce Supplier Dependency**
-Diversify the supplier base to reduce risk.
-If the top supplier experiences a delay, the
-business needs alternatives ready to fulfil
-orders without disruption.
-
+- **Diversify the Supplier Base:** Reduce supplier dependency to strengthen supply chain resilience.
 ---
-
 ## Dashboard
----
-Two Power BI dashboards were built to visualise
-the findings for non-technical stakeholders.
 
-**Dashboard 1 — Sales Performance Report**
-Covers total revenue, revenue by product category,
-top 5 best-selling products, daily sales trend
-and payment method breakdown.
+Two interactive Power BI dashboards were developed to present the analysis and support business decision-making for non-technical stakeholders.
 
-![Dashboard 1 — Sales Performance Report — attach your image here](images/sql_dashboard1.png)
+### Sales Performance Dashboard
 
-**Dashboard 2 — Customer & Supplier Report**
-Covers top spending customers, supplier sales
-contribution and products that need urgent
-restocking.
+Visualises revenue trends, product category performance, best-selling products, daily sales patterns, and payment method distribution.
 
-![Dashboard 2 — Customer and Supplier Report — attach your image here](images/sql_dashboard2.png)
+![Sales Performance Dashboard](images/sql_dashboard1.png)
 
 ---
 
+### Customer & Supplier Dashboard
+
+Highlights top customers, supplier performance, and inventory items requiring replenishment to support customer retention and supply chain decisions.
+
+![Customer & Supplier Dashboard](images/sql_dashboard2.png)
+---
 ## Conclusion
 ---
 This project demonstrates that a well-designed
