@@ -4,7 +4,7 @@
 
 # Table of Contents
 
-- [Analysis Overview](#analysis-overview)
+- [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
 - [Objectives](#objectives)
 - [Data Source](#data-source)
@@ -36,14 +36,6 @@ product performance, supplier activity, payments
 and inventory then queried to answer real
 business questions that management needs answered
 every week.
-
-| Stat | Value |
-|------|-------|
-| Database Name | sales_inventory_system |
-| Total Tables | 6 |
-| Total Records | 170+ |
-| SQL Queries Written | 20+ |
-| Dashboards Built | 2 |
 
 ---
 
