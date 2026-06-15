@@ -3,25 +3,24 @@
 ---
 
 # Table of Contents
----
-- [Project Overview](#project-overview)
+
+- [Analysis Overview](#analysis-overview)
 - [Business Problem](#business-problem)
 - [Objectives](#objectives)
-- [Database Design](#database-design)
-- [Dataset Overview](#dataset-overview)
+- [Data Source](#data-source)
 - [Tools Used](#tools-used)
-- [Database Creation & Data Insertion](#database-creation--data-insertion)
+- [Database Development](#database-development)
 - [Skills Demonstrated](#skills-demonstrated)
-- [KPI Overview](#kpi-overview)
-- [Business Insights](#business-insights)
+- [Key Business Insights](#key-business-insights)
 - [Recommendations](#recommendations)
 - [Dashboard](#dashboard)
 - [Conclusion](#conclusion)
+- [Connect With Me](#connect-with-me)
 
 ---
 
 ## Project Overview
----
+
 Most businesses collect data every day but without
 a proper system to store and query that data, the
 information is useless.
@@ -78,7 +77,15 @@ fixes that.
   findings for non-technical stakeholders
 
 ---
+## Data Source
 
+The analysis was conducted using a retail sales dataset created for this project and stored in a relational MySQL database. The database consists of six interconnected tables representing customers, products, suppliers, orders, order details, and payments.
+
+The dataset was populated with realistic business records to simulate day-to-day retail operations and support SQL analysis, business intelligence reporting, and dashboard development.
+
+![Database tables](images/sql_database_tables.png)
+
+---
 ## Tools Used
 
 - **MySQL:** Used to write all SQL queries,
@@ -190,30 +197,18 @@ Visualises revenue trends, product category performance, best-selling products, 
 Highlights top customers, supplier performance, and inventory items requiring replenishment to support customer retention and supply chain decisions.
 
 ![Customer & Supplier Dashboard](images/sql_dashboard2.png)
+
 ---
+
 ## Conclusion
----
-This project demonstrates that a well-designed
-database is not just a technical achievement,
-it is a business tool.
 
-In under 20 SQL queries, Global Traders now
-knows exactly which products are driving revenue,
-which customers are most valuable, which suppliers
-are performing best and which products need
-restocking before stock runs out.
+This project demonstrates how SQL and Power BI can be combined to transform raw transactional data into meaningful business insights.
 
-The Power BI dashboards make all of this
-accessible to anyone in the business no SQL
-knowledge required.
+Using a relational database built from scratch, SQL queries were used to answer key business questions around revenue, customer behaviour, product performance, inventory management, and supplier performance. The findings were then presented through interactive Power BI dashboards to support data-driven decision-making for both technical and non-technical stakeholders.
 
-This is what data analysis is supposed to do:
-turn raw records into decisions that move the
-business forward.
+Overall, the project showcases practical skills in database development, SQL analysis, business intelligence, dashboard design, and data storytelling while highlighting how data can be used to improve business performance and operational efficiency.
 
 ---
-
-Thank you for reading!
 
 Let's connect:
 
